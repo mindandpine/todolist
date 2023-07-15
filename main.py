@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 import sys
  
-
 """new entry adds an entry to an existing file"""
 def new_entry(entry):
     todo_list = open("Todolist.txt", "a")
@@ -24,5 +23,12 @@ def read_from_stdin():
 """if name is main is a way to run the script
 from the terminal https://stackoverflow.com/questions/419163/what-does-if-name-main-do"""
 if __name__ == "__main__":
+
+
+
+
+
+
+
     print(" Todo app\n Please enter new todo items. \n Press 'q + <Enter>' to exit")
     read_from_stdin()
